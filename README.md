@@ -31,7 +31,7 @@ uvicorn todoler.main:app --reload
 
 This will run the server at http://localhost:8000
 
-To try out the API, go to http://localhost:8000/docs, create a new user at the `/users/` endpoint and the authorize with the API using your username and password. You'll then be able to access all other secured endpoints.
+To try out the API, go to http://localhost:8000/docs, create a new user at the `/users/` endpoint and then authorize with the API using your username and password. You'll then be able to access all other secured endpoints.
 
 ## Techstack used
 - Python 3.10 with pipenv
